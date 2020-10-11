@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-labels = ['Deployment', 'Re-deployment', 'Removal']
+labels = ['DEP', 'Re-DEP', 'REM']
 nai_means = [336, 287, 301]
 opt_means = [442, 157, 282]
 
@@ -74,15 +74,15 @@ if __name__ == '__main__':
     # autolabel(rects1)
     # autolabel(rects2)
 
-    plt.xticks(fontsize=16)
-    plt.yticks(fontsize=16)
+    plt.xticks(fontsize=18)
+    plt.yticks(fontsize=18)
     # plt.ylim(0, 38)
 
 
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)
 
-    fig.set_size_inches(6, 6)
+    fig.set_size_inches(5.4, 6)
     fig.tight_layout()
     # plt.title("bookinfo")
     plt.savefig('bar-boutique.eps', bbox_inches='tight')

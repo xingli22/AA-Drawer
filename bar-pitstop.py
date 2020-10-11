@@ -85,5 +85,5 @@ if __name__ == '__main__':
     fig.set_size_inches(5.4, 6)
     fig.tight_layout()
     # plt.title("bookinfo")
-    plt.savefig('bar-sockshop.eps', bbox_inches='tight')
+    plt.savefig('bar-pitstop.eps', bbox_inches='tight')
     plt.show()

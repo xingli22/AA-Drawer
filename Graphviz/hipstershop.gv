@@ -1,0 +1,32 @@
+digraph{
+ratio=0.6;
+rankdir = LR;node [shape=box; fontsize = 16; label = ""];
+"frontend-v1";
+"cartservice-v1";
+"currencyservice-v1";
+"recommendationservice-v1";
+"checkoutservice-v1";
+"frontend-v1" -> "productcatalogservice-v1";
+"frontend-v1" -> "productcatalogservice-v1";
+"frontend-v1" -> "currencyservice-v1";
+"frontend-v1" -> "currencyservice-v1";
+"frontend-v1" -> "cartservice-v1";
+"frontend-v1" -> "cartservice-v1";
+"frontend-v1" -> "cartservice-v1";
+"frontend-v1" -> "recommendationservice-v1";
+"frontend-v1" -> "shippingservice-v1";
+"frontend-v1" -> "checkoutservice-v1";
+"frontend-v1" -> "adservice-v1";
+"cartservice-v1" -> "redis-cart"[color="#08519c"];
+"External"[shape = ellipse];
+"currencyservice-v1" -> "External"[color="#d95f0e", style = dashed];
+"recommendationservice-v1" -> "productcatalogservice-v1";
+"checkoutservice-v1" -> "paymentservice-v1";
+"checkoutservice-v1" -> "productcatalogservice-v1";
+"checkoutservice-v1" -> "currencyservice-v1";
+"checkoutservice-v1" -> "cartservice-v1";
+"checkoutservice-v1" -> "cartservice-v1";
+"checkoutservice-v1" -> "emailservice-v1";
+"checkoutservice-v1" -> "shippingservice-v1";
+"checkoutservice-v1" -> "shippingservice-v1";
+}

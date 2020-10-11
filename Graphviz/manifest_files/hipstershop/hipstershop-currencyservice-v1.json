@@ -1,0 +1,13 @@
+{
+  "service": "currencyservice",
+  "version": "v1",
+  "requests": [
+    {
+      "type": "http",
+      "url": "http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+      "name": "",
+      "path": "",
+      "method": "GET"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "service": "schedule-managements",
+  "version": "v1",
+  "requests": [
+    {
+      "type": "tcp",
+      "url": "",
+      "name": "mongodb",
+      "port": "12345"
+    }
+  ]
+}

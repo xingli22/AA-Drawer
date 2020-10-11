@@ -28,7 +28,8 @@ rwith = 0.28
 
 # cmap = plt.get_cmap("tab20b")
 # colors = cmap(np.array([, 9, 5]))
-colors = ['#ece7f2', '#a6bddb', '#2b8cbe']
+colors = ['#f7f7f7', '#0571b0', '#92c5de']
+
 
 fig, ax = plt.subplots()
 # rects1 = ax.bar(x - width, d_means, width, label='Deployment', color='black', align='edge', edgecolor='black')
@@ -46,7 +47,7 @@ rects3 = ax.bar(x + 0.5 * width, r_means, rwith, yerr=r_std,error_kw=dict(capsiz
 # rects4 = ax.bar(x -1.5*width, e, rwith, bottom=bo, label='Policy Generation', color='white', hatch="xxxx",align='edge', edgecolor='black')
 
 error = {rects1: d_std, rects2: rd_std, rects3: r_std}
-
+ax.set_ylabel('processing time (ms)', fontsize=13)
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
 # ax.set_ylabel('time (ms)', fontsize=14)

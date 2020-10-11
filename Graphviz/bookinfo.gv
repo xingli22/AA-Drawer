@@ -1,0 +1,16 @@
+digraph{
+ratio=0.6;
+rankdir = LR;node [shape=box; fontsize = 16; label = ""];
+"details-v1";
+"productpage-v1";
+"reviews-v1";
+"ratings-v1";
+"External"[shape = ellipse];
+"details-v1" -> "External"[color="#d95f0e", style = dashed];
+"productpage-v1" -> "details-v1";
+"productpage-v1" -> "reviews-v1";
+"productpage-v1" -> "ratings-v1";
+"reviews-v1" -> "ratings-v1";
+"ratings-v1" -> "mysqldb"[color="#08519c"];
+"ratings-v1" -> "mongodb"[color="#08519c"];
+}
