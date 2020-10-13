@@ -11,7 +11,7 @@
 <!-- frontend&#45;v1 -->
 <g id="node1" class="node">
 <title>frontend&#45;v1</title>
-<polygon fill="none" stroke="black" points="76.67,-238 22.67,-238 22.67,-202 76.67,-202 76.67,-238"/>
+<polygon fill="none" stroke="black" points="76.67,-239 22.67,-239 22.67,-203 76.67,-203 76.67,-239"/>
 </g>
 <!-- cartservice&#45;v1 -->
 <g id="node2" class="node">
@@ -21,87 +21,87 @@
 <!-- frontend&#45;v1&#45;&gt;cartservice&#45;v1 -->
 <g id="edge5" class="edge">
 <title>frontend&#45;v1&#45;&gt;cartservice&#45;v1</title>
-<path fill="none" stroke="black" d="M76.67,-217.73C104.27,-224.81 149.25,-243.45 188.67,-258 244.88,-278.75 311.41,-300.26 349.56,-317.63"/>
-<polygon fill="black" stroke="black" points="348.09,-320.8 358.62,-321.95 351.11,-314.49 348.09,-320.8"/>
+<path fill="none" stroke="black" d="M76.75,-226.66C103.5,-241.09 146.99,-269.16 188.67,-285 240.81,-304.82 305.11,-314.44 344.49,-323.55"/>
+<polygon fill="black" stroke="black" points="343.88,-327 354.42,-325.98 345.54,-320.2 343.88,-327"/>
 </g>
 <!-- frontend&#45;v1&#45;&gt;cartservice&#45;v1 -->
 <g id="edge6" class="edge">
 <title>frontend&#45;v1&#45;&gt;cartservice&#45;v1</title>
-<path fill="none" stroke="black" d="M76.67,-231.13C104.27,-242.81 149.25,-261.45 188.67,-276 242.53,-295.88 305.85,-316.46 344.62,-328.74"/>
-<polygon fill="black" stroke="black" points="343.81,-332.15 354.4,-331.83 345.91,-325.48 343.81,-332.15"/>
+<path fill="none" stroke="black" d="M75.26,-239.21C101.87,-258.03 146.2,-286.86 188.67,-303 240.7,-322.78 304.84,-332.4 344.24,-336.76"/>
+<polygon fill="black" stroke="black" points="344.11,-340.27 354.42,-337.83 344.84,-333.3 344.11,-340.27"/>
 </g>
 <!-- frontend&#45;v1&#45;&gt;cartservice&#45;v1 -->
 <g id="edge7" class="edge">
 <title>frontend&#45;v1&#45;&gt;cartservice&#45;v1</title>
-<path fill="none" stroke="black" d="M66.68,-238.2C92.27,-255.8 144.04,-277.52 188.67,-294 242.3,-313.8 305.31,-334.28 344.12,-341.96"/>
-<polygon fill="black" stroke="black" points="343.94,-345.48 354.4,-343.78 345.16,-338.59 343.94,-345.48"/>
-</g>
-<!-- currencyservice&#45;v1 -->
-<g id="node3" class="node">
-<title>currencyservice&#45;v1</title>
-<polygon fill="none" stroke="black" points="408.67,-304 354.67,-304 354.67,-268 408.67,-268 408.67,-304"/>
-</g>
-<!-- frontend&#45;v1&#45;&gt;currencyservice&#45;v1 -->
-<g id="edge3" class="edge">
-<title>frontend&#45;v1&#45;&gt;currencyservice&#45;v1</title>
-<path fill="none" stroke="black" d="M76.84,-221.37C135.44,-229.44 277.33,-257.63 344.4,-274.33"/>
-<polygon fill="black" stroke="black" points="343.94,-277.82 354.49,-276.9 345.67,-271.04 343.94,-277.82"/>
-</g>
-<!-- frontend&#45;v1&#45;&gt;currencyservice&#45;v1 -->
-<g id="edge4" class="edge">
-<title>frontend&#45;v1&#45;&gt;currencyservice&#45;v1</title>
-<path fill="none" stroke="black" d="M76.84,-229.09C135.44,-244.47 277.33,-273.04 344.4,-283.16"/>
-<polygon fill="black" stroke="black" points="344.1,-286.66 354.49,-284.63 345.1,-279.73 344.1,-286.66"/>
+<path fill="none" stroke="black" d="M61.44,-239.12C83.84,-263.84 137.61,-301.59 188.67,-321 240.7,-340.78 304.84,-350.4 344.24,-350.03"/>
+<polygon fill="black" stroke="black" points="344.55,-353.52 354.42,-349.68 344.31,-346.53 344.55,-353.52"/>
 </g>
 <!-- recommendationservice&#45;v1 -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>recommendationservice&#45;v1</title>
-<polygon fill="none" stroke="black" points="242.67,-146 188.67,-146 188.67,-110 242.67,-110 242.67,-146"/>
+<polygon fill="none" stroke="black" points="242.67,-294 188.67,-294 188.67,-258 242.67,-258 242.67,-294"/>
 </g>
 <!-- frontend&#45;v1&#45;&gt;recommendationservice&#45;v1 -->
 <g id="edge8" class="edge">
 <title>frontend&#45;v1&#45;&gt;recommendationservice&#45;v1</title>
-<path fill="none" stroke="black" d="M77.02,-205.22C104.83,-189.61 148.83,-164.93 179.57,-147.69"/>
-<polygon fill="black" stroke="black" points="181.64,-150.54 188.65,-142.59 178.22,-144.43 181.64,-150.54"/>
+<path fill="none" stroke="black" d="M77.02,-229.84C104.71,-239.13 148.45,-253.79 179.17,-264.1"/>
+<polygon fill="black" stroke="black" points="178.06,-267.41 188.65,-267.28 180.29,-260.78 178.06,-267.41"/>
 </g>
 <!-- checkoutservice&#45;v1 -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>checkoutservice&#45;v1</title>
-<polygon fill="none" stroke="black" points="242.67,-238 188.67,-238 188.67,-202 242.67,-202 242.67,-238"/>
+<polygon fill="none" stroke="black" points="242.67,-184 188.67,-184 188.67,-148 242.67,-148 242.67,-184"/>
 </g>
 <!-- frontend&#45;v1&#45;&gt;checkoutservice&#45;v1 -->
 <g id="edge10" class="edge">
 <title>frontend&#45;v1&#45;&gt;checkoutservice&#45;v1</title>
-<path fill="none" stroke="black" d="M77.02,-220C104.47,-220 147.69,-220 178.37,-220"/>
-<polygon fill="black" stroke="black" points="178.65,-223.5 188.65,-220 178.65,-216.5 178.65,-223.5"/>
+<path fill="none" stroke="black" d="M77.02,-212.16C104.71,-202.87 148.45,-188.21 179.17,-177.9"/>
+<polygon fill="black" stroke="black" points="180.29,-181.22 188.65,-174.72 178.06,-174.59 180.29,-181.22"/>
 </g>
 <!-- productcatalogservice&#45;v1 -->
-<g id="node6" class="node">
+<g id="node5" class="node">
 <title>productcatalogservice&#45;v1</title>
-<polygon fill="none" stroke="black" points="408.67,-88 354.67,-88 354.67,-52 408.67,-52 408.67,-88"/>
+<polygon fill="none" stroke="black" points="408.67,-297 354.67,-297 354.67,-261 408.67,-261 408.67,-297"/>
 </g>
 <!-- frontend&#45;v1&#45;&gt;productcatalogservice&#45;v1 -->
 <g id="edge1" class="edge">
 <title>frontend&#45;v1&#45;&gt;productcatalogservice&#45;v1</title>
-<path fill="none" stroke="black" d="M61.24,-201.92C82.47,-172.89 133.03,-117.91 188.67,-92 239.24,-68.45 304.52,-62.38 344.45,-63.46"/>
-<polygon fill="black" stroke="black" points="344.37,-66.96 354.52,-63.92 344.68,-59.97 344.37,-66.96"/>
+<path fill="none" stroke="black" d="M76.85,-218.26C113.89,-219.94 183.67,-229.3 242.67,-240 277.58,-246.33 317.12,-255.09 344.9,-263.14"/>
+<polygon fill="black" stroke="black" points="343.99,-266.52 354.58,-266.07 346.02,-259.82 343.99,-266.52"/>
 </g>
 <!-- frontend&#45;v1&#45;&gt;productcatalogservice&#45;v1 -->
 <g id="edge2" class="edge">
 <title>frontend&#45;v1&#45;&gt;productcatalogservice&#45;v1</title>
-<path fill="none" stroke="black" d="M71.3,-201.89C96.11,-176.67 140.49,-132.44 188.67,-110 239.24,-86.45 304.52,-80.38 344.45,-76.62"/>
-<polygon fill="black" stroke="black" points="344.89,-80.1 354.52,-75.66 344.23,-73.13 344.89,-80.1"/>
+<path fill="none" stroke="black" d="M76.85,-230.21C113.89,-237.94 183.67,-247.3 242.67,-258 277.43,-264.31 316.78,-273.02 344.54,-277.82"/>
+<polygon fill="black" stroke="black" points="344.14,-281.31 354.58,-279.46 345.27,-274.4 344.14,-281.31"/>
+</g>
+<!-- currencyservice&#45;v1 -->
+<g id="node6" class="node">
+<title>currencyservice&#45;v1</title>
+<polygon fill="none" stroke="black" points="408.67,-81 354.67,-81 354.67,-45 408.67,-45 408.67,-81"/>
+</g>
+<!-- frontend&#45;v1&#45;&gt;currencyservice&#45;v1 -->
+<g id="edge3" class="edge">
+<title>frontend&#45;v1&#45;&gt;currencyservice&#45;v1</title>
+<path fill="none" stroke="black" d="M64.96,-202.76C88.95,-178.58 139.53,-137.36 188.67,-113 240.15,-87.48 304.9,-70.37 344.51,-63.81"/>
+<polygon fill="black" stroke="black" points="345.13,-67.26 354.5,-62.31 344.09,-60.34 345.13,-67.26"/>
+</g>
+<!-- frontend&#45;v1&#45;&gt;currencyservice&#45;v1 -->
+<g id="edge4" class="edge">
+<title>frontend&#45;v1&#45;&gt;currencyservice&#45;v1</title>
+<path fill="none" stroke="black" d="M76.75,-205.13C103.33,-185.18 146.53,-151.89 188.67,-131 240.26,-105.43 305.18,-88.3 344.76,-76.94"/>
+<polygon fill="black" stroke="black" points="345.88,-80.26 354.5,-74.11 343.92,-73.54 345.88,-80.26"/>
 </g>
 <!-- shippingservice&#45;v1 -->
 <g id="node7" class="node">
 <title>shippingservice&#45;v1</title>
-<polygon fill="none" stroke="black" points="408.67,-142 354.67,-142 354.67,-106 408.67,-106 408.67,-142"/>
+<polygon fill="none" stroke="black" points="408.67,-135 354.67,-135 354.67,-99 408.67,-99 408.67,-135"/>
 </g>
 <!-- frontend&#45;v1&#45;&gt;shippingservice&#45;v1 -->
 <g id="edge9" class="edge">
 <title>frontend&#45;v1&#45;&gt;shippingservice&#45;v1</title>
-<path fill="none" stroke="black" d="M76.84,-212.39C135.56,-195.3 277.91,-153.89 344.81,-134.43"/>
-<polygon fill="black" stroke="black" points="345.87,-137.77 354.49,-131.61 343.91,-131.05 345.87,-137.77"/>
+<path fill="none" stroke="black" d="M74.06,-202.85C100.36,-183.51 145.09,-153.69 188.67,-139 240.8,-121.43 304.91,-117.34 344.28,-116.67"/>
+<polygon fill="black" stroke="black" points="344.49,-120.17 354.45,-116.57 344.42,-113.17 344.49,-120.17"/>
 </g>
 <!-- adservice&#45;v1 -->
 <g id="node8" class="node">
@@ -111,8 +111,8 @@
 <!-- frontend&#45;v1&#45;&gt;adservice&#45;v1 -->
 <g id="edge11" class="edge">
 <title>frontend&#45;v1&#45;&gt;adservice&#45;v1</title>
-<path fill="none" stroke="black" d="M65.51,-201.72C94.72,-165.74 159.75,-85.64 193.47,-44.1"/>
-<polygon fill="black" stroke="black" points="196.39,-46.07 199.98,-36.1 190.95,-41.65 196.39,-46.07"/>
+<path fill="none" stroke="black" d="M65.35,-202.76C90.55,-171.48 143.65,-105.59 188.67,-50 190.13,-48.19 191.64,-46.33 193.17,-44.45"/>
+<polygon fill="black" stroke="black" points="196.22,-46.24 199.81,-36.27 190.79,-41.83 196.22,-46.24"/>
 </g>
 <!-- redis&#45;cart -->
 <g id="node9" class="node">
@@ -125,80 +125,69 @@
 <path fill="none" stroke="#08519c" d="M408.86,-340C436.06,-340 478.85,-340 509.32,-340"/>
 <polygon fill="#08519c" stroke="#08519c" points="509.54,-343.5 519.54,-340 509.54,-336.5 509.54,-343.5"/>
 </g>
-<!-- External -->
-<g id="node10" class="node">
-<title>External</title>
-<ellipse fill="none" stroke="black" cx="546.67" cy="-286" rx="27" ry="18"/>
-</g>
-<!-- currencyservice&#45;v1&#45;&gt;External -->
-<g id="edge13" class="edge">
-<title>currencyservice&#45;v1&#45;&gt;External</title>
-<path fill="none" stroke="#d95f0e" stroke-dasharray="5,2" d="M408.86,-286C436.06,-286 478.85,-286 509.32,-286"/>
-<polygon fill="#d95f0e" stroke="#d95f0e" points="509.54,-289.5 519.54,-286 509.54,-282.5 509.54,-289.5"/>
-</g>
 <!-- recommendationservice&#45;v1&#45;&gt;productcatalogservice&#45;v1 -->
-<g id="edge14" class="edge">
+<g id="edge13" class="edge">
 <title>recommendationservice&#45;v1&#45;&gt;productcatalogservice&#45;v1</title>
-<path fill="none" stroke="black" d="M243.02,-118.68C270.71,-108.89 314.45,-93.42 345.17,-82.55"/>
-<polygon fill="black" stroke="black" points="346.39,-85.83 354.65,-79.2 344.06,-79.23 346.39,-85.83"/>
+<path fill="none" stroke="black" d="M243.02,-276.48C270.47,-276.98 313.69,-277.77 344.37,-278.34"/>
+<polygon fill="black" stroke="black" points="344.59,-281.84 354.65,-278.52 344.72,-274.84 344.59,-281.84"/>
+</g>
+<!-- checkoutservice&#45;v1&#45;&gt;cartservice&#45;v1 -->
+<g id="edge17" class="edge">
+<title>checkoutservice&#45;v1&#45;&gt;cartservice&#45;v1</title>
+<path fill="none" stroke="black" d="M238.11,-184.02C270.07,-215.19 329.78,-278.58 360.8,-314.33"/>
+<polygon fill="black" stroke="black" points="358.16,-316.63 367.32,-321.94 363.47,-312.07 358.16,-316.63"/>
 </g>
 <!-- checkoutservice&#45;v1&#45;&gt;cartservice&#45;v1 -->
 <g id="edge18" class="edge">
 <title>checkoutservice&#45;v1&#45;&gt;cartservice&#45;v1</title>
-<path fill="none" stroke="black" d="M243.02,-234.17C273.47,-254.28 323.32,-290.75 353.94,-315.3"/>
-<polygon fill="black" stroke="black" points="352.07,-318.29 362.03,-321.89 356.49,-312.86 352.07,-318.29"/>
-</g>
-<!-- checkoutservice&#45;v1&#45;&gt;cartservice&#45;v1 -->
-<g id="edge19" class="edge">
-<title>checkoutservice&#45;v1&#45;&gt;cartservice&#45;v1</title>
-<path fill="none" stroke="black" d="M235.48,-238.26C262.36,-260.49 312.22,-297.35 345.91,-320.21"/>
-<polygon fill="black" stroke="black" points="344.28,-323.32 354.53,-325.98 348.17,-317.51 344.28,-323.32"/>
-</g>
-<!-- checkoutservice&#45;v1&#45;&gt;currencyservice&#45;v1 -->
-<g id="edge17" class="edge">
-<title>checkoutservice&#45;v1&#45;&gt;currencyservice&#45;v1</title>
-<path fill="none" stroke="black" d="M243.02,-230.6C270.71,-241.75 314.45,-259.35 345.17,-271.72"/>
-<polygon fill="black" stroke="black" points="344.07,-275.04 354.65,-275.53 346.68,-268.55 344.07,-275.04"/>
+<path fill="none" stroke="black" d="M230.09,-184.15C256.58,-215.52 316.14,-279.16 351.9,-314.76"/>
+<polygon fill="black" stroke="black" points="349.58,-317.38 359.15,-321.91 354.49,-312.4 349.58,-317.38"/>
 </g>
 <!-- checkoutservice&#45;v1&#45;&gt;productcatalogservice&#45;v1 -->
-<g id="edge16" class="edge">
+<g id="edge15" class="edge">
 <title>checkoutservice&#45;v1&#45;&gt;productcatalogservice&#45;v1</title>
-<path fill="none" stroke="black" d="M236.45,-201.91C265.63,-175.22 320.32,-125.2 353.32,-95.01"/>
-<polygon fill="black" stroke="black" points="355.8,-97.49 360.81,-88.16 351.07,-92.32 355.8,-97.49"/>
+<path fill="none" stroke="black" d="M243.02,-184.16C271.07,-203.49 315.59,-234.16 346.36,-255.36"/>
+<polygon fill="black" stroke="black" points="344.43,-258.28 354.65,-261.08 348.4,-252.52 344.43,-258.28"/>
+</g>
+<!-- checkoutservice&#45;v1&#45;&gt;currencyservice&#45;v1 -->
+<g id="edge16" class="edge">
+<title>checkoutservice&#45;v1&#45;&gt;currencyservice&#45;v1</title>
+<path fill="none" stroke="black" d="M243.02,-149.45C270.95,-131.91 315.21,-104.11 345.97,-84.79"/>
+<polygon fill="black" stroke="black" points="348.05,-87.62 354.65,-79.34 344.32,-81.69 348.05,-87.62"/>
+</g>
+<!-- checkoutservice&#45;v1&#45;&gt;shippingservice&#45;v1 -->
+<g id="edge20" class="edge">
+<title>checkoutservice&#45;v1&#45;&gt;shippingservice&#45;v1</title>
+<path fill="none" stroke="black" d="M243.02,-153.01C270.59,-142.81 314.07,-129.62 344.77,-122.03"/>
+<polygon fill="black" stroke="black" points="345.73,-125.4 354.65,-119.68 344.12,-118.59 345.73,-125.4"/>
 </g>
 <!-- checkoutservice&#45;v1&#45;&gt;shippingservice&#45;v1 -->
 <g id="edge21" class="edge">
 <title>checkoutservice&#45;v1&#45;&gt;shippingservice&#45;v1</title>
-<path fill="none" stroke="black" d="M239.47,-201.81C266.95,-183.49 313.41,-156.02 345.49,-138.93"/>
-<polygon fill="black" stroke="black" points="347.3,-141.94 354.54,-134.2 344.06,-135.73 347.3,-141.94"/>
-</g>
-<!-- checkoutservice&#45;v1&#45;&gt;shippingservice&#45;v1 -->
-<g id="edge22" class="edge">
-<title>checkoutservice&#45;v1&#45;&gt;shippingservice&#45;v1</title>
-<path fill="none" stroke="black" d="M243.02,-209.69C272.02,-194.78 318.63,-167.61 349.45,-147.71"/>
-<polygon fill="black" stroke="black" points="351.63,-150.46 358.08,-142.05 347.8,-144.61 351.63,-150.46"/>
+<path fill="none" stroke="black" d="M243.02,-163.24C270.71,-156.94 314.45,-144.06 345.17,-133.28"/>
+<polygon fill="black" stroke="black" points="346.43,-136.55 354.65,-129.86 344.06,-129.96 346.43,-136.55"/>
 </g>
 <!-- paymentservice&#45;v1 -->
-<g id="node11" class="node">
+<g id="node10" class="node">
 <title>paymentservice&#45;v1</title>
-<polygon fill="none" stroke="black" points="408.67,-250 354.67,-250 354.67,-214 408.67,-214 408.67,-250"/>
+<polygon fill="none" stroke="black" points="408.67,-243 354.67,-243 354.67,-207 408.67,-207 408.67,-243"/>
 </g>
 <!-- checkoutservice&#45;v1&#45;&gt;paymentservice&#45;v1 -->
-<g id="edge15" class="edge">
+<g id="edge14" class="edge">
 <title>checkoutservice&#45;v1&#45;&gt;paymentservice&#45;v1</title>
-<path fill="none" stroke="black" d="M243.02,-221.93C270.47,-223.94 313.69,-227.1 344.37,-229.34"/>
-<polygon fill="black" stroke="black" points="344.42,-232.86 354.65,-230.1 344.94,-225.88 344.42,-232.86"/>
+<path fill="none" stroke="black" d="M243.02,-175.48C270.71,-185.44 314.45,-201.18 345.17,-212.23"/>
+<polygon fill="black" stroke="black" points="344.06,-215.55 354.65,-215.64 346.43,-208.96 344.06,-215.55"/>
 </g>
 <!-- emailservice&#45;v1 -->
-<g id="node12" class="node">
+<g id="node11" class="node">
 <title>emailservice&#45;v1</title>
-<polygon fill="none" stroke="black" points="408.67,-196 354.67,-196 354.67,-160 408.67,-160 408.67,-196"/>
+<polygon fill="none" stroke="black" points="408.67,-189 354.67,-189 354.67,-153 408.67,-153 408.67,-189"/>
 </g>
 <!-- checkoutservice&#45;v1&#45;&gt;emailservice&#45;v1 -->
-<g id="edge20" class="edge">
+<g id="edge19" class="edge">
 <title>checkoutservice&#45;v1&#45;&gt;emailservice&#45;v1</title>
-<path fill="none" stroke="black" d="M243.02,-213.25C270.59,-206.19 314.07,-195.06 344.77,-187.19"/>
-<polygon fill="black" stroke="black" points="345.83,-190.53 354.65,-184.66 344.1,-183.75 345.83,-190.53"/>
+<path fill="none" stroke="black" d="M243.02,-166.8C270.47,-167.64 313.69,-168.96 344.37,-169.89"/>
+<polygon fill="black" stroke="black" points="344.55,-173.4 354.65,-170.21 344.76,-166.4 344.55,-173.4"/>
 </g>
 </g>
 </svg>

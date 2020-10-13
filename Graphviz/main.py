@@ -68,6 +68,6 @@ if __name__ == '__main__':
     file = open(app + '.gv', 'w+')
     file.write(basestring)
     file.close()
-    os.system('dot ' + app + '.gv -Tsvg -o ' + app + '.svg')
+    os.system('dot ' + app + '.gv -Teps -o ' + app + '.eps')
     # print(root)
     # print(os.path.join(root, file))

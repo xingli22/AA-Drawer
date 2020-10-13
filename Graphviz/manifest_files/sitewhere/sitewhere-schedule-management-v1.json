@@ -1,5 +1,5 @@
 {
-  "service": "schedule-managements",
+  "service": "schedule-management",
   "version": "v1",
   "requests": [
     {

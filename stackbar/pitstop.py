@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 category_names = ['Strongly disagree', 'Disagree',
                   'Neither agree nor disagree', 'Agree', 'Strongly agree']
 results = {
-    'HTTP': [60, 20, 20, 0, 0],
+    'HTTP': [69, 31, 0, 0, 0],
     # 'gRPC': [26, 22, 29, 10, 13],
-    'TCP': [50, 50, 0, 0, 0],
+    'TCP': [52, 25, 20, 3, 0],
 }
 sum = [72,28]
 
@@ -25,7 +25,7 @@ def survey(results, category_names):
     data = np.array(list(results.values()))
     data_cum = data.cumsum(axis=1)
     # category_colors = plt.get_cmap('RdYlGn')(np.linspace(0.15, 0.85, data.shape[1]))
-    category_colors = ['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#eff3ff']
+    category_colors = ['#6baed6', '#9ecae1', '#c6dbef', '#deebf7', '#f7fbff']
     category_colors_1 = ['#ef6548', '#fc8d59', '#fdbb84', '#fdd49e', '#fee8c8']
 
     fig, ax = plt.subplots()
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
     fig.set_size_inches(11, 1.1)
     fig.tight_layout()
-    plt.title('Bookinfo', fontsize = 16)
+    plt.title('Pitstop', fontsize = 16)
 
-    plt.savefig('bookinfo-stack.eps', bbox_inches='tight')
+    plt.savefig('pitstop-stack.eps', bbox_inches='tight')
     plt.show()

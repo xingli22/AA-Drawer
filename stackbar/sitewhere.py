@@ -25,7 +25,7 @@ def survey(results, category_names):
     data = np.array(list(results.values()))
     data_cum = data.cumsum(axis=1)
     # category_colors = plt.get_cmap('RdYlGn')(np.linspace(0.15, 0.85, data.shape[1]))
-    category_colors = ['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#eff3ff']
+    category_colors = ['#6baed6', '#9ecae1', '#c6dbef', '#deebf7', '#f7fbff']
     category_colors_1 = ['#737373', '#969696', '#bdbdbd', '#d9d9d9', '#f0f0f0']
     category_colors_2 = ['#737373', '#969696', '#bdbdbd', '#d9d9d9', '#f0f0f0']
 

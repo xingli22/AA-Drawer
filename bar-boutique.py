@@ -4,11 +4,11 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 labels = ['DEP', 'Re-DEP', 'REM']
-nai_means = [336, 287, 301]
-opt_means = [442, 157, 282]
+nai_means = [189, 182, 179]
+opt_means = [209, 79, 127]
 
-nai_std = [72.79, 69.02, 54.71]
-opt_std = [64.74, 18.82, 43.67]
+nai_std = [6.79, 4.02, 5.71]
+opt_std = [8.74, 10.82, 7.67]
 
 
 
@@ -28,8 +28,8 @@ fig, ax = plt.subplots()
 # rects2 = ax.bar(x, rd_means, width, label='Re-deployment', color='white', hatch="//", align='edge', edgecolor='black')
 # rects3 = ax.bar(x + width, r_means, width, label='Removal', color='white', align='edge', edgecolor='black')
 
-rects1 = ax.bar(x - 1 * width -0.01, nai_means, width, yerr=nai_std, error_kw=dict(capsize=10), label='Baseline', color=colors[0], align='edge', edgecolor='black')
-rects2 = ax.bar(x +0.01, opt_means, width, yerr=opt_std, error_kw=dict(capsize=10), label='AutoArmor', color=colors[1], align='edge',
+rects1 = ax.bar(x - 1 * width -0.01, nai_means, width, yerr=nai_std, error_kw=dict(capsize=6), label='Baseline', color=colors[0], align='edge', edgecolor='black')
+rects2 = ax.bar(x +0.01, opt_means, width, yerr=opt_std, error_kw=dict(capsize=6), label='AutoArmor', color=colors[1], align='edge',
                 edgecolor='black')
 
 error = {rects1: nai_std, rects2: opt_std}
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
-    # plt.ylim(0, 38)
+    plt.ylim(0, 530)
 
 
     # ax.spines['right'].set_visible(False)

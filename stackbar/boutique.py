@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 category_names = ['Strongly disagree', 'Disagree',
                   'Neither agree nor disagree', 'Agree', 'Strongly agree']
 results = {
-    'HTTP': [85, 15, 0, 0, 0],
+    'gRPC': [95, 5, 0, 0, 0],
     # 'gRPC': [26, 22, 29, 10, 13],
-    'TCP': [54, 33, 13, 0, 0],
+    'TCP': [100, 0, 0, 0, 0],
 }
-sum = [46,54]
+sum = [74,26]
 
 def survey(results, category_names):
     """
@@ -25,8 +25,7 @@ def survey(results, category_names):
     data = np.array(list(results.values()))
     data_cum = data.cumsum(axis=1)
     # category_colors = plt.get_cmap('RdYlGn')(np.linspace(0.15, 0.85, data.shape[1]))
-    # category_colors = ['#3690c0', '#74a9cf', '#a6bddb', '#d0d1e6', '#ece7f2']
-    category_colors = ['#3182bd', '#6baed6', '#9ecae1', '#c6dbef', '#eff3ff']
+    category_colors = ['#6baed6', '#9ecae1', '#c6dbef', '#deebf7', '#f7fbff']
     category_colors_1 = ['#ef6548', '#fc8d59', '#fdbb84', '#fdd49e', '#fee8c8']
 
     fig, ax = plt.subplots()
@@ -44,15 +43,15 @@ def survey(results, category_names):
 
         # r, g, b  = color
         text_color = 'black'  # if r * g * b < 0.5 else 'darkgrey'
-        flag = [True, True]
+        flag = True
 
         for y, (x, c) in enumerate(zip(xcenters, widths)):
             if c != 0:
                 ax.text(x, y, str(int(c)) + '%', ha='center', va='center', color=text_color, fontsize=14)
             # else:
-            #     if flag[y]:
+            #     if flag:
             #         ax.text(x + 4, y, str(sum[y]) + '%', ha='center', va='center', color=text_color, fontsize=16)
-            #         flag[y] = False
+            #         flag = False
     # ax.legend(ncol=len(category_names), bbox_to_anchor=(0, 1),
     #           loc='lower left', fontsize='small')
 
@@ -70,7 +69,7 @@ if __name__ == '__main__':
 
     fig.set_size_inches(11, 1.1)
     fig.tight_layout()
-    plt.title('Sock Shop', fontsize = 16)
+    plt.title('Online Boutique', fontsize = 16)
 
-    plt.savefig('sockshop-stack.eps', bbox_inches='tight')
+    plt.savefig('boutique-stack.eps', bbox_inches='tight')
     plt.show()
