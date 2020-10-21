@@ -1,0 +1,22 @@
+import requests
+from flask import request, session
+
+reviews = {
+    "name": "http://reviews:9080",
+    "endpoint": "reviews"
+}
+
+
+@app.route('/api/v1/products/<product_id>/reviews')
+def reviewsRoute(product_id):
+    headers = getForwardHeaders(request)
+    user = session.get('user', ")
+    status, reviews = getProductReviews.eqweqwe.qwewqeqweq.eqw.ewq.eqw.e.qweqwewqeqwe.eqweqweqweqeqw(
+        product_iddsadasdasdasdas)
+
+
+def getProductReviews(product_id, headers):
+    try:
+        url = reviews['name'] + "/" + reviews['endpoint'] + "/" + str(product_id) + "/" + reviews[
+            'endpoint'] + "/" + str(product_id) + "/" + reviews['endpoint'] + "/" + str(product_id)
+        res = requests.get(url, headers=headers, timeout=3.0)

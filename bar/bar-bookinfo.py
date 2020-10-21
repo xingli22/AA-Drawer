@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-labels = ['DEP', 'Re-DEP', 'REM']
-nai_means = [453, 322, 335]
-opt_means = [488, 155, 245]
+labels = ['DEV', 'Re-DEV', 'REM']
+nai_means = [73, 46, 50]
+opt_means = [75, 15, 32]
 
-nai_std = [22.79, 22.02, 17.71]
-opt_std = [17.74, 5.82, 8.67]
+nai_std = [4.09, 4.86, 7.35]
+opt_std = [6.92, 2.37, 2.69]
 
 
 
@@ -38,12 +38,12 @@ red_patch = mpatches.Patch(facecolor='white', hatch = '/',label='Policy Modifica
 
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
-ax.set_ylabel('processing time (ms)', fontsize=18)
+ax.set_ylabel('processing time (ms)', fontsize=16)
 # ax.set_title('Scores by group and gender')
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 ax.grid(axis='y')
-ax.legend(handles=[rects1, rects2, red_patch],fontsize=16)#, loc='upper left')
+ax.legend(handles=[rects1, rects2, red_patch],fontsize=16)
 #ax.legend(fontsize=15)
 
 
@@ -66,7 +66,7 @@ def autolabel(rects):
                     xy=(rect.get_x() + rect.get_width() / 2, height+error[rects][i]),
                     xytext=(0, 3),  # 3 points vertical offset
                     textcoords="offset points",
-                    ha='center', va='bottom', fontsize=15)
+                    ha='center', va='bottom', fontsize=16)
         i=i+1
 
 
@@ -82,8 +82,8 @@ if __name__ == '__main__':
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)
 
-    fig.set_size_inches(5.4, 6)
+    fig.set_size_inches(5.4, 5.4)
     fig.tight_layout()
     # plt.title("bookinfo")
-    plt.savefig('bar-sockshop.eps', bbox_inches='tight')
+    plt.savefig('bar-bookinfo.eps', bbox_inches='tight')
     plt.show()

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-labels = ['200 services', '400 services', '600 services', '800 services', '1000 services']
+labels = ['200 services\n/ 180 policies ', '400 services\n/ 360 policies ', '600 services\n/ 540 policies ', '800 services\n/ 720 policies ', '1,000 services\n/ 900 policies ']
 d_means = [2541, 4763, 7082, 9361, 11703]
 rd_means = [699, 1289, 1952, 2555, 3192]
 r_means = [1183, 2257, 3394, 4728, 6045]
@@ -90,10 +90,11 @@ if __name__ == '__main__':
 
     plt.xticks(fontsize=13)
     plt.yticks(fontsize=13)
-    # plt.ylim(0,38)
+    plt.ylim(0, 13000)
+    # ax.grid(axis='y')
 
-    ax.spines['right'].set_visible(False)
-    ax.spines['top'].set_visible(False)
+    # ax.spines['right'].set_visible(False)
+    # ax.spines['top'].set_visible(False)
 
     fig.set_size_inches(9, 4.5)
     fig.tight_layout()

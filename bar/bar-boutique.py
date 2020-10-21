@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-labels = ['DEV', 'Re-DEV', 'REM']
-nai_means = [73, 46, 50]
-opt_means = [75, 15, 32]
+labels = ['DEP', 'Re-DEP', 'REM']
+nai_means = [189, 182, 179]
+opt_means = [209, 79, 127]
 
-nai_std = [4.09, 4.86, 7.35]
-opt_std = [6.92, 2.37, 2.69]
+nai_std = [6.79, 4.02, 5.71]
+opt_std = [8.74, 10.82, 7.67]
 
 
 
@@ -43,7 +43,7 @@ ax.set_ylabel('processing time (ms)', fontsize=16)
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 ax.grid(axis='y')
-ax.legend(handles=[rects1, rects2, red_patch],fontsize=16)
+ax.legend(handles=[rects1, rects2, red_patch],fontsize=16)#, loc='upper left')
 #ax.legend(fontsize=15)
 
 
@@ -66,7 +66,7 @@ def autolabel(rects):
                     xy=(rect.get_x() + rect.get_width() / 2, height+error[rects][i]),
                     xytext=(0, 3),  # 3 points vertical offset
                     textcoords="offset points",
-                    ha='center', va='bottom', fontsize=16)
+                    ha='center', va='bottom', fontsize=15)
         i=i+1
 
 
@@ -82,8 +82,8 @@ if __name__ == '__main__':
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)
 
-    fig.set_size_inches(5.4, 6)
+    fig.set_size_inches(5.4, 5.4)
     fig.tight_layout()
     # plt.title("bookinfo")
-    plt.savefig('bar-bookinfo.eps', bbox_inches='tight')
+    plt.savefig('bar-boutique.eps', bbox_inches='tight')
     plt.show()

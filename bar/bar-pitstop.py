@@ -4,11 +4,11 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 labels = ['DEP', 'Re-DEP', 'REM']
-nai_means = [189, 182, 179]
-opt_means = [209, 79, 127]
+nai_means = [260.79, 209.02, 223.71]
+opt_means = [272, 42, 135]
 
-nai_std = [6.79, 4.02, 5.71]
-opt_std = [8.74, 10.82, 7.67]
+nai_std = [16.79, 4.02, 5.71]
+opt_std = [15.74, 2.82, 8.67]
 
 
 
@@ -38,7 +38,7 @@ red_patch = mpatches.Patch(facecolor='white', hatch = '/',label='Policy Modifica
 
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
-ax.set_ylabel('processing time (ms)', fontsize=16)
+ax.set_ylabel('processing time (ms)', fontsize=18)
 # ax.set_title('Scores by group and gender')
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
@@ -82,8 +82,8 @@ if __name__ == '__main__':
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)
 
-    fig.set_size_inches(5.4, 6)
+    fig.set_size_inches(5.4, 5.4)
     fig.tight_layout()
     # plt.title("bookinfo")
-    plt.savefig('bar-boutique.eps', bbox_inches='tight')
+    plt.savefig('bar-pitstop.eps', bbox_inches='tight')
     plt.show()

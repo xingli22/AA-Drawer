@@ -2,48 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44bcba88-5dbc-40a1-8a0d-9c541fa86f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graphviz/bookinfo.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphviz/hipstershop.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphviz/pitstop.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphviz/sockshop.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/bookinfo-stack.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/bookinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/boutique-stack.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/boutique.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/pitstop-stack.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/pitstop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/sitewhere-stack.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/sitewhere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/sockshop-stack.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackbar/sockshop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar/bar-dis.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar/bar-large.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar/bar-ssas.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar/ssas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/brokenaxes-0.4.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/brokenaxes-0.4.2.dist-info/LICENCE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/brokenaxes-0.4.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/brokenaxes-0.4.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/brokenaxes-0.4.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/brokenaxes-0.4.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/brokenaxes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/hipstershop.gv" beforeDir="false" afterPath="$PROJECT_DIR$/Graphviz/hipstershop.gv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/hipstershop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Graphviz/hipstershop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphviz/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/hipstershop/hipstershop-currencyservice-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-bookinfo.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar-bookinfo.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-bookinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar-bookinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-boutique.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar-boutique.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-boutique.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar-boutique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-large.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar-large.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-large.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar-large.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-pitstop.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar-pitstop.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-pitstop.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar-pitstop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-sitewhere.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar-sitewhere.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-sitewhere.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar-sitewhere.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-sockshop.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar-sockshop.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar-sockshop.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar-sockshop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/bookinfo-stack.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/bookinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/boutique-stack.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/boutique.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/pitstop-stack.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/pitstop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/sitewhere-stack.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/sitewhere.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/sockshop-stack.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duiji/sockshop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-bench.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-bench.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-bench.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-bench.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-bench.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-bench.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-bookinfo.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-bookinfo.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-bookinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-bookinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-boutique.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-boutique.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-boutique.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-boutique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-large.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-large.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-large.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-distri.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-large.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-large.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-pitstop.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-pitstop.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-pitstop.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-pitstop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-sitewhere.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-sitewhere.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-sitewhere.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-sockshop.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-sockshop.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bar-sockshop.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-sockshop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,15 +60,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bar" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bar" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bar" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.bar-large">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,17 +95,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="bar-distri" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="drawer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bar" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/bar-distri.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bar-large" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar-large.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/bar-large.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,13 +137,16 @@
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar-pitstop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/bar-pitstop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,13 +159,16 @@
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar-sitewhere.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/bar-sitewhere.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,36 +177,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bar-sockshop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ssas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar-sockshop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="drawer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphviz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphviz/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/ssas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,13 +198,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.bar-large" />
+        <item itemvalue="Python.ssas" />
+        <item itemvalue="Python.bar-distri" />
         <item itemvalue="Python.bar-sitewhere" />
         <item itemvalue="Python.bar-pitstop" />
-        <item itemvalue="Python.bar-sockshop" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -227,7 +236,10 @@
       <workItem from="1602277782861" duration="2552000" />
       <workItem from="1602374957650" duration="808000" />
       <workItem from="1602375841224" duration="15320000" />
-      <workItem from="1602400717240" duration="6630000" />
+      <workItem from="1602400717240" duration="6933000" />
+      <workItem from="1602630245784" duration="3415000" />
+      <workItem from="1602787391626" duration="285000" />
+      <workItem from="1602793942114" duration="9135000" />
     </task>
     <servers />
   </component>
@@ -274,10 +286,10 @@
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
     <state x="360" y="-977" key="SettingsEditor/45.23.1395.877/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1602375977686" />
-    <state x="596" y="-735" key="com.intellij.ide.util.TipDialog" timestamp="1602374964716">
+    <state x="596" y="-735" key="com.intellij.ide.util.TipDialog" timestamp="1602630245892">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="596" y="-735" key="com.intellij.ide.util.TipDialog/45.23.1395.877/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1602374964716" />
+    <state x="596" y="-735" key="com.intellij.ide.util.TipDialog/45.23.1395.877/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1602630245892" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

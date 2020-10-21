@@ -4,11 +4,11 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 labels = ['DEP', 'Re-DEP', 'REM']
-nai_means = [1747, 1406, 1505]
-opt_means = [1771, 357, 914]
+nai_means = [453, 322, 335]
+opt_means = [488, 155, 245]
 
-nai_std = [89.0, 20.0, 21.0]
-opt_std = [126, 15, 28]
+nai_std = [22.79, 22.02, 17.71]
+opt_std = [17.74, 5.82, 8.67]
 
 
 
@@ -76,14 +76,14 @@ if __name__ == '__main__':
 
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
-    # plt.ylim(0, 2400)
+    plt.ylim(0, 530)
 
 
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)
 
-    fig.set_size_inches(5.4, 6)
+    fig.set_size_inches(5.4, 5.4)
     fig.tight_layout()
     # plt.title("bookinfo")
-    plt.savefig('bar-sitewhere.eps', bbox_inches='tight')
+    plt.savefig('bar-sockshop.eps', bbox_inches='tight')
     plt.show()
