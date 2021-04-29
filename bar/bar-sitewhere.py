@@ -7,7 +7,7 @@ labels = ['DEP', 'Re-DEP', 'REM']
 nai_means = [1747, 1406, 1505]
 opt_means = [1771, 357, 914]
 
-nai_std = [89.0, 20.0, 21.0]
+nai_std = [89, 20, 21]
 opt_std = [126, 15, 28]
 
 x = np.arange(len(labels))  # the label locations
@@ -22,10 +22,6 @@ colors = ['#ef8a62', '#67a9cf', '#91bfdb']
 
 
 fig, ax = plt.subplots()
-# rects1 = ax.bar(x - width, d_means, width, label='Deployment', color='black', align='edge', edgecolor='black')
-# rects2 = ax.bar(x, rd_means, width, label='Re-deployment', color='white', hatch="//", align='edge', edgecolor='black')
-# rects3 = ax.bar(x + width, r_means, width, label='Removal', color='white', align='edge', edgecolor='black')
-
 rects1 = ax.bar(x - 1 * width - 0.01, nai_means, width, yerr=nai_std, error_kw=dict(capsize=6), label='Baseline',
                 color=colors[0], align='edge', edgecolor='black')
 rects2 = ax.bar(x + 0.01, opt_means, width, yerr=opt_std, error_kw=dict(capsize=6), label='AutoArmor', color=colors[1],
@@ -60,7 +56,7 @@ def autolabel(rects):
     for rect in rects:
         height = rect.get_height()
         ax.annotate('{}'.format(height),
-                    xy=(rect.get_x() + rect.get_width() / 2, height+error[rects][i]),
+                    xy=(rect.get_x() + rect.get_width() / 2, height + error[rects][i]),
                     xytext=(0, 3),  # 3 points vertical offset
                     textcoords="offset points",
                     ha='center', va='bottom', fontsize=15)

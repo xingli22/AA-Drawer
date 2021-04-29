@@ -3,14 +3,15 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-labels = ['DEP', 'Re-DEP', 'REM']
-nai_means = [189, 182, 179]
-opt_means = [209, 79, 127]
+labels = ['Deploy New Version', 'Remove Old Version']
+nai_means = [72, 31]
 
-nai_std = [6, 4, 5]
-opt_std = [8, 10, 7]
+
+nai_std = [11.69, 2.86]
 
 x = np.arange(len(labels))  # the label locations
+
+print(x)
 width = 0.3  # the width of the bars
 rwidth = 0.16
 
@@ -22,13 +23,17 @@ colors = ['#ef8a62', '#67a9cf', '#91bfdb']
 
 
 fig, ax = plt.subplots()
-rects1 = ax.bar(x - 1 * width - 0.01, nai_means, width, yerr=nai_std, error_kw=dict(capsize=6), label='Baseline',
-                color=colors[0], align='edge', edgecolor='black')
-rects2 = ax.bar(x + 0.01, opt_means, width, yerr=opt_std, error_kw=dict(capsize=6), label='AutoArmor', color=colors[1],
-                align='edge',
-                edgecolor='black')
+# rects1 = ax.bar(x - width, d_means, width, label='Deployment', color='black', align='edge', edgecolor='black')
+# rects2 = ax.bar(x, rd_means, width, label='Re-deployment', color='white', hatch="//", align='edge', edgecolor='black')
+# rects3 = ax.bar(x + width, r_means, width, label='Removal', color='white', align='edge', edgecolor='black')
 
-error = {rects1: nai_std, rects2: opt_std}
+rects1 = ax.bar(x-width/2, nai_means, width, yerr=nai_std, error_kw=dict(capsize=6), label='Baseline',
+                color=colors[1], align='edge', edgecolor='black')
+# rects2 = ax.bar(x + 0.01, opt_means, width, yerr=opt_std, error_kw=dict(capsize=6), label='AutoArmor', color=colors[1],
+#                 align='edge',
+#                 edgecolor='black')
+
+error = {rects1: nai_std}
 
 red_patch = mpatches.Patch(facecolor='white', hatch='/', label='Policy Modification', edgecolor='black')
 
@@ -38,16 +43,16 @@ ax.set_ylabel('processing time (ms)', fontsize=16)
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 ax.grid(axis='y')
-ax.legend(handles=[rects1, rects2, red_patch], fontsize=16)  # , loc='upper left')
+# ax.legend(handles=[rects1], fontsize=16)
 # ax.legend(fontsize=15)
 
 
-patterns_1 = ('/', '/', '/')
-patterns_2 = ('/', '', '')
-for bar, pattern in zip(rects1, patterns_1):
-    bar.set_hatch(pattern)
-for bar, pattern in zip(rects2, patterns_2):
-    bar.set_hatch(pattern)
+# patterns_1 = ('/', '/', '/')
+# patterns_2 = ('/', '', '')
+# for bar, pattern in zip(rects1, patterns_1):
+#     bar.set_hatch(pattern)
+# for bar, pattern in zip(rects2, patterns_2):
+#     bar.set_hatch(pattern)
 
 
 def autolabel(rects):
@@ -59,7 +64,7 @@ def autolabel(rects):
                     xy=(rect.get_x() + rect.get_width() / 2, height + error[rects][i]),
                     xytext=(0, 3),  # 3 points vertical offset
                     textcoords="offset points",
-                    ha='center', va='bottom', fontsize=15)
+                    ha='center', va='bottom', fontsize=16)
         i = i + 1
 
 
@@ -69,13 +74,13 @@ if __name__ == '__main__':
 
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
-    plt.ylim(0, 530)
+    plt.ylim(0, 100)
 
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)
 
-    fig.set_size_inches(5.4, 5.4)
+    fig.set_size_inches(7.4, 4.4)
     fig.tight_layout()
     # plt.title("bookinfo")
-    plt.savefig('bar-boutique.eps', bbox_inches='tight')
+    plt.savefig('bar-testone.eps', bbox_inches='tight')
     plt.show()

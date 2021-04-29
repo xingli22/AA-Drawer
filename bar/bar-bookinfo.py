@@ -3,14 +3,12 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-labels = ['DEV', 'Re-DEV', 'REM']
+labels = ['DEP', 'Re-DEP', 'REM']
 nai_means = [73, 46, 50]
 opt_means = [75, 15, 32]
 
 nai_std = [4.09, 4.86, 7.35]
 opt_std = [6.92, 2.37, 2.69]
-
-
 
 x = np.arange(len(labels))  # the label locations
 width = 0.3  # the width of the bars
@@ -20,7 +18,7 @@ cmap = plt.get_cmap("tab20c")
 # colors = cmap(np.array([1, 5, 9]))
 colors = ['#ef8a62', '#67a9cf', '#91bfdb']
 
-#f7f7f7
+# f7f7f7
 
 
 fig, ax = plt.subplots()
@@ -28,14 +26,15 @@ fig, ax = plt.subplots()
 # rects2 = ax.bar(x, rd_means, width, label='Re-deployment', color='white', hatch="//", align='edge', edgecolor='black')
 # rects3 = ax.bar(x + width, r_means, width, label='Removal', color='white', align='edge', edgecolor='black')
 
-rects1 = ax.bar(x - 1 * width -0.01, nai_means, width, yerr=nai_std, error_kw=dict(capsize=6), label='Baseline', color=colors[0], align='edge', edgecolor='black')
-rects2 = ax.bar(x +0.01, opt_means, width, yerr=opt_std, error_kw=dict(capsize=6), label='AutoArmor', color=colors[1], align='edge',
+rects1 = ax.bar(x - 1 * width - 0.01, nai_means, width, yerr=nai_std, error_kw=dict(capsize=6), label='Baseline',
+                color=colors[0], align='edge', edgecolor='black')
+rects2 = ax.bar(x + 0.01, opt_means, width, yerr=opt_std, error_kw=dict(capsize=6), label='AutoArmor', color=colors[1],
+                align='edge',
                 edgecolor='black')
 
 error = {rects1: nai_std, rects2: opt_std}
 
-red_patch = mpatches.Patch(facecolor='white', hatch = '/',label='Policy Modification', edgecolor='black')
-
+red_patch = mpatches.Patch(facecolor='white', hatch='/', label='Policy Modification', edgecolor='black')
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.set_ylabel('processing time (ms)', fontsize=16)
@@ -43,10 +42,8 @@ ax.set_ylabel('processing time (ms)', fontsize=16)
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
 ax.grid(axis='y')
-ax.legend(handles=[rects1, rects2, red_patch],fontsize=16)
-#ax.legend(fontsize=15)
-
-
+ax.legend(handles=[rects1, rects2, red_patch], fontsize=16)
+# ax.legend(fontsize=15)
 
 
 patterns_1 = ('/', '/', '/')
@@ -63,11 +60,11 @@ def autolabel(rects):
     for rect in rects:
         height = rect.get_height()
         ax.annotate('{}'.format(height),
-                    xy=(rect.get_x() + rect.get_width() / 2, height+error[rects][i]),
+                    xy=(rect.get_x() + rect.get_width() / 2, height + error[rects][i]),
                     xytext=(0, 3),  # 3 points vertical offset
                     textcoords="offset points",
                     ha='center', va='bottom', fontsize=16)
-        i=i+1
+        i = i + 1
 
 
 if __name__ == '__main__':
@@ -77,7 +74,6 @@ if __name__ == '__main__':
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
     plt.ylim(0, 530)
-
 
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)

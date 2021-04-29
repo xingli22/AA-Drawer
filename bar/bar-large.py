@@ -3,21 +3,15 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-labels = ['200 services\n/ 180 policies ', '400 services\n/ 360 policies ', '600 services\n/ 540 policies ', '800 services\n/ 720 policies ', '1,000 services\n/ 900 policies ']
+labels = ['200 services\n/ 180 policies ', '400 services\n/ 360 policies ', '600 services\n/ 540 policies ',
+          '800 services\n/ 720 policies ', '1,000 services\n/ 900 policies ']
 d_means = [2541, 4763, 7082, 9361, 11703]
 rd_means = [699, 1289, 1952, 2555, 3192]
 r_means = [1183, 2257, 3394, 4728, 6045]
 
-d_std = [122.79,136.74,186.74,193.74,225.74]
-rd_std = [66.79,46.74,116.74,66.74,83.74]
-r_std = [70.79,30.74,16.74,169.74,138.74]
-
-ten1_std = [339.79, 66.02, 161.71]
-ten2_std = [1139.74, 402.82, 584.67]
-ten3_std = [1577.74, 574.82, 924.67]
-ten4_std = [1874.74, 823.82, 1434.67]
-ten5_std = [2955.74, 1957.82, 7751.67]
-
+d_std = [122, 136, 186, 193, 225]
+rd_std = [66, 46, 116, 66, 83]
+r_std = [70, 30, 16, 169, 138]
 
 e = [899, 1559, 2417, 3030, 3721]
 bo = [d_means[0] - e[0], d_means[1] - e[1], d_means[2] - e[2], d_means[3] - e[3], d_means[4] - e[4]]
@@ -30,19 +24,15 @@ rwith = 0.28
 # colors = cmap(np.array([, 9, 5]))
 colors = ['#f7f7f7', '#0571b0', '#92c5de']
 
-
 fig, ax = plt.subplots()
-# rects1 = ax.bar(x - width, d_means, width, label='Deployment', color='black', align='edge', edgecolor='black')
-# rects2 = ax.bar(x, rd_means, width, label='Re-deployment', color='white', hatch="//", align='edge',
-#                 edgecolor='black')
-# rects3 = ax.bar(x + width, r_means, width, label='Removal', color='white', align='edge', edgecolor='black')
-
-rects1 = ax.bar(x - 1.5 * width, d_means, rwith, yerr=d_std,error_kw=dict(capsize=6), label='Deployment', color=colors[0], align='edge', edgecolor='black')
-rects2 = ax.bar(x - 0.5 * width, rd_means, rwith, yerr=rd_std,error_kw=dict(capsize=6), label='Re-deployment', color=colors[1], align='edge',
+rects1 = ax.bar(x - 1.5 * width, d_means, rwith, yerr=d_std, error_kw=dict(capsize=6), label='Deployment',
+                color=colors[0], align='edge', edgecolor='black')
+rects2 = ax.bar(x - 0.5 * width, rd_means, rwith, yerr=rd_std, error_kw=dict(capsize=6), label='Re-deployment',
+                color=colors[1], align='edge',
                 edgecolor='black')
-rects3 = ax.bar(x + 0.5 * width, r_means, rwith, yerr=r_std,error_kw=dict(capsize=6), label='Removal', color=colors[2], align='edge', hatch="",
+rects3 = ax.bar(x + 0.5 * width, r_means, rwith, yerr=r_std, error_kw=dict(capsize=6), label='Removal', color=colors[2],
+                align='edge', hatch="",
                 edgecolor='black')
-
 
 # rects4 = ax.bar(x -1.5*width, e, rwith, bottom=bo, label='Policy Generation', color='white', hatch="xxxx",align='edge', edgecolor='black')
 
@@ -52,23 +42,20 @@ ax.set_ylabel('processing time (ms)', fontsize=13)
 # Add some text for labels, title and custom x-axis tick labels, etc.
 # ax.set_ylabel('time (ms)', fontsize=14)
 # ax.set_title('Scores by group and gender')
-red_patch = mpatches.Patch(facecolor='white', hatch = '/',label='Policy Modification', edgecolor='black')
+red_patch = mpatches.Patch(facecolor='white', hatch='/', label='Policy Modification', edgecolor='black')
 
 ax.set_xticks(x)
 ax.set_xticklabels(labels)
-ax.legend(handles=[rects1, rects2,rects3, red_patch],fontsize=13)
-
+ax.legend(handles=[rects1, rects2, rects3, red_patch], fontsize=13)
 
 patterns_2 = ('/', '/', '/', '/', '/')
 for bar, pattern in zip(rects1, patterns_2):
     bar.set_hatch(pattern)
 
 
-
-
 def autolabel(rects):
     """Attach a text label above each bar in *rects*, displaying its height."""
-    i=0
+    i = 0
     for rect in rects:
         xx = 3
         if rect.get_height() == 1724:
@@ -77,11 +64,12 @@ def autolabel(rects):
             xx = 2
         height = rect.get_height()
         ax.annotate('{:,}'.format(height),
-                    xy=(rect.get_x() + rect.get_width() / 1.6, height+error[rects][i]),
+                    xy=(rect.get_x() + rect.get_width() / 1.6, height + error[rects][i]),
                     xytext=(0, xx),  # 3 points vertical offset
                     textcoords="offset points",
                     ha='center', va='bottom', fontsize=12)
-        i=i+1
+        i = i + 1
+
 
 if __name__ == '__main__':
     autolabel(rects1)

@@ -1,18 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-# 30 points between [0, 0.2) originally made using np.random.rand(30)*.2
-from matplotlib.ticker import FuncFormatter, MaxNLocator
-
-pts = np.array([
-    0.015, 0.166, 0.133, 0.159, 0.041, 0.024, 0.195, 0.039, 0.161, 0.018,
-    0.143, 0.056, 0.125, 0.096, 0.094, 0.051, 0.043, 0.021, 0.138, 0.075,
-    0.109, 0.195, 0.050, 0.074, 0.079, 0.155, 0.020, 0.010, 0.061, 0.008])
-
-# Now let's make two outlier points which are far away from everything.
-pts[[3, 14]] += .8
-
 d_means = [1, 1, 1, 1, 1, 4, 27, 23, 8, 36, 11, 26, 1, 8, 11, 8, 34, 1, 46, 11, 4, 5, 510]
 
 d_std = [0, 0, 0, 0, 0, 0, 2, 1, 1, 2, 1, 1, 0, 0, 1, 1, 3, 0, 3, 0, 0, 1, 19]
@@ -46,21 +34,13 @@ rwith = 0.5
 # plot the same data on both axes
 x = np.arange(len(labels))
 color = '#91bfdb'
-ax.bar(x, d_means, yerr=d_std,error_kw=dict(capsize=4), color =color, edgecolor='black')
-ax2.bar(x, d_means, yerr=d_std,error_kw=dict(capsize=4), color =color,edgecolor='black')
+ax.bar(x, d_means, yerr=d_std, error_kw=dict(capsize=4), color=color, edgecolor='black')
+ax2.bar(x, d_means, yerr=d_std, error_kw=dict(capsize=4), color=color, edgecolor='black')
 
 ax2.set_xticks(range(23))
-ax.set_yticks((500,540))
-ax.tick_params(axis='y', labelsize= 12)
+ax.set_yticks((500, 540))
+ax.tick_params(axis='y', labelsize=12)
 ax2.set_xticklabels(labels, rotation=90)
-
-# def my_format(x,xx):
-#     return labels[int(x)]
-# # ax.set_xticklabels(labels)
-# # ax.xaxis.set_major_formatter(FuncFormatter(my_format))
-# # ax.xaxis.set_major_locator(MaxNLocator(integer=True))
-# for tick in ax.get_xticklabels():
-#     tick.set_rotation(120)
 
 # zoom-in / limit the view to different portions of the data
 ax.set_ylim(480, 550)  # outliers only
@@ -84,7 +64,7 @@ ax2.xaxis.tick_bottom()
 d = 0.01  # how big to make the diagonal lines in axes coordinates
 # arguments to pass to plot, just so we don't keep repeating them
 kwargs = dict(transform=ax.transAxes, color='k', clip_on=False)
-ax.plot((-d, +d), (-d, +d), **kwargs)        # top-left diagonal
+ax.plot((-d, +d), (-d, +d), **kwargs)  # top-left diagonal
 ax.plot((1 - d, 1 + d), (-d, +d), **kwargs)  # top-right diagonal
 
 kwargs.update(transform=ax2.transAxes)  # switch to the bottom axes
@@ -100,12 +80,11 @@ ax2.plot((1 - d, 1 + d), (1 - d, 1 + d), **kwargs)  # bottom-right diagonal
 if __name__ == '__main__':
     plt.xticks(fontsize=12)
     plt.yticks(fontsize=12)
-    # plt.ylim(0,38)
 
     # ax.spines['right'].set_visible(False)
     # ax.spines['top'].set_visible(False)
 
     f.set_size_inches(9, 4.5)
     f.tight_layout()
-    plt.savefig('bar-ssas.eps', bbox_inches='tight')
+    plt.savefig('bar-distribution.eps', bbox_inches='tight')
     plt.show()
