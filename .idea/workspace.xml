@@ -2,57 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44bcba88-5dbc-40a1-8a0d-9c541fa86f20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graphviz.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bar.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bar/bar-dis-sock.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bar/bar-dis-sock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bar/bar-sitewhere.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bar/bar-testone.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bar/bar-testone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar/bar-large-woio.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar/bar-large-woio.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar/bar-large-woio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/bookinfo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/hipstershop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-asset-management-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-batch-operations-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-command-delivery-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-device-management-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-device-registration-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-device-state-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-event-management-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-event-search-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-event-sources-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-inbound-processing-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-instance-management-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-label-generation-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-outbound-connectors-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-rule-processing-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-schedule-management-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-streaming-media-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/manifest_files/sitewhere/sitewhere-web-rest-v1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/pitstop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/sitewhere.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/sitewhere.gv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/sitewhere.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphviz/sockshop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-bench.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-bookinfo.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-bookinfo.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-bookinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-bookinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-boutique.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-boutique.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-boutique.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-boutique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-dis.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-distri.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-large.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-large.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-large.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-large.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-large.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-pitstop.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-pitstop.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-pitstop.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-pitstop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-sitewhere.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-sitewhere.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-sockshop.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-sockshop.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-sockshop.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-sockshop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/bar-ssas.eps" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-distribution.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/ssas.py" beforeDir="false" afterPath="$PROJECT_DIR$/bar/bar-distribution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enforcement.eps" beforeDir="false" afterPath="$PROJECT_DIR$/enforcement.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pie.eps" beforeDir="false" afterPath="$PROJECT_DIR$/pie.eps" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +47,7 @@
       <recent name="$PROJECT_DIR$/bar" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bar-bookinfo">
+  <component name="RunManager" selected="Python.bar-large-woio">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,6 +74,9 @@
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bar" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -180,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bar-distribution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bar-large-woio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="drawer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,7 +149,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/bar-distribution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/bar-large-woio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bar-large-woio" />
         <item itemvalue="Python.bar-bookinfo" />
         <item itemvalue="Python.bar-dis-sock" />
         <item itemvalue="Python.bar-testone" />
         <item itemvalue="Python.bar-boutique" />
-        <item itemvalue="Python.bar-distribution" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +227,8 @@
       <workItem from="1603380999394" duration="1540000" />
       <workItem from="1619604474016" duration="3245000" />
       <workItem from="1619682004431" duration="29000" />
+      <workItem from="1624780654801" duration="1879000" />
+      <workItem from="1624790178324" duration="3000" />
     </task>
     <servers />
   </component>
